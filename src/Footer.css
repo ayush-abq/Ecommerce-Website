@@ -1,0 +1,38 @@
+.main-footer {
+  color: white;
+  background-color: #181818;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  
+}
+.Footer-row {
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.col{
+    display: inline-block;
+    flex-direction: column;
+    background-color: #181818;
+    z-index: 1;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: flex-end;
+    margin-left: 15px;
+    padding: 22px;
+    width: 29%;
+    max-height: 400px;
+    min-width: 100px;
+
+}
+
+
+.col-tos{
+    text-align: center;
+    padding: 10px;
+}
+
